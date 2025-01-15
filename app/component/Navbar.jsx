@@ -132,7 +132,7 @@ export default function NavBar() {
                 DESA TEMATIK
               </Link>
               {/*Kontak*/}
-              {/*<Link
+              <Link
                 href="/Contact"
                 className={`${
                   navbarBg ? "text-gray-800" : "text-gray-800"
@@ -140,7 +140,7 @@ export default function NavBar() {
                 onMouseEnter={() => setActiveMenu(null)}
               >
                 KONTAK
-              </Link>*/}
+              </Link>
             </div>
 
             {/* Desktop Login Button */}
