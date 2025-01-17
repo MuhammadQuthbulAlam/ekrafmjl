@@ -91,7 +91,6 @@ export default function NavBar() {
               >
                 BERANDA
               </Link>
-
               {Object.entries(menuItems).map(([key, value]) => (
                 <div
                   key={key}
@@ -145,9 +144,9 @@ export default function NavBar() {
 
             {/* Desktop Login Button */}
             <div className="hidden md:block">
-              <Link href="/Contact">
+              <Link href="http://mccstore.great-site.net/">
                 <button className="text-white bg-sky-500 px-4 py-2 rounded hover:bg-sky-600">
-                  KONTAK
+                  MCC STORE
                 </button>
               </Link>
             </div>
@@ -290,15 +289,9 @@ export default function NavBar() {
               </div>
             </div>
           ))}
-          <Link
-            href="/Contact"
-            className="block text-gray-800 hover:text-sky-500 py-2"
-          >
-            KONTAK
-          </Link>
-          <Link href="/login">
+          <Link href="http://mccstore.great-site.net/">
             <button className="w-full text-white bg-sky-500 px-4 py-2 rounded hover:bg-sky-600 mt-4">
-              Login
+              MCC STORE
             </button>
           </Link>
         </div>

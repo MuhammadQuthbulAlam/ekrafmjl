@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Image from "next/image";
 import Img from "../../public/Assets/images/MCC2.jpg";
 import {
@@ -60,9 +61,11 @@ const page = () => {
       <div className="container flex mx-auto px-9 xl:px-40 lg:px-20" id="Ekraf">
         <div className="box rounded-lg flex flex-row gap-7 overflow-x-auto justify-between pt-5 pb-5 px-5">
           <div className="flex flex-col items-center">
-            <div className="rounded-full bg-sky-400 px-4 py-3 items-center hover:bg-sky-600 md:text-1xl sm:text-1xl hover:scale-110">
-              <FaGamepad className="ri-gamepad-line flex justify-center text-2xl text-white"></FaGamepad>
-            </div>
+            <Link href="/GameDev">
+              <div className="rounded-full bg-sky-400 px-4 py-3 items-center hover:bg-sky-600 md:text-1xl sm:text-1xl hover:scale-110">
+                <FaGamepad className="ri-gamepad-line flex justify-center text-2xl text-white"></FaGamepad>
+              </div>
+            </Link>
             <div className="text-center text-sm pt-3 font-medium">
               Game Developer
             </div>
