@@ -290,7 +290,7 @@ export default function NavBar() {
             </div>
           ))}
           <Link
-            href="/kontak"
+            href="/Contact"
             className="block text-gray-800 hover:text-sky-500 py-2"
           >
             KONTAK
