@@ -186,15 +186,15 @@ const Komite = () => {
           <div className="grid md:grid-cols-2 grid-cols-1 gap-3">
             <div className="box">
               <div className="box pt-5">
-                <h1
-                  className="text-left lg:text-2xl/tight text-2xl font-medium mb-3 ml-10"
+                <h2
+                  className="text-left lg:text-1xl/tight text-1xl font-medium mb-3 ml-10"
                   id="Tentang-Ekraf"
                 >
                   Tentang Komite
                   <span className="font-bold text-sky-400"> Ekraf</span>
-                </h1>
-                <div className="text-left mx-10 bg-white border-2 rounded-lg w-auto h-auto">
-                  <div className="text-base px-4 py-4">
+                </h2>
+                <div className="text-left mx-10 bg-white border-2 rounded-md w-auto h-5/6">
+                  <div className="text-justify px-4 py-4">
                     Komite pengembangan ekonomi kreatif majalengka adalah
                     lembaga mitra pemerintahan dalam penyusunan kegiatan
                     pengembangan, mengarahkan serta mengawal pelaksanaan program
@@ -202,51 +202,54 @@ const Komite = () => {
                     sesuai dengan keputusan bupati majalengka nomor
                     eka.02.01/kep.513-bapedalitbang/2023.
                   </div>
+                  <Image
+                    src={mcc}
+                    alt=""
+                    className="flex rounded-md lg:w-[640px] h-[280px] md:mx-4"
+                  />
                 </div>
               </div>
-              <Image
-                src={mcc}
-                alt=""
-                className="flex rounded-lg lg:w-[440px] h-[280px] md:m-auto pt-10 mt-10"
-              />
             </div>
             {/*Visi & Misi*/}
             <div className="box pt-5" id="visimisi">
-              <h1 className="text-left ml-10 lg:text-2xl/tight text-2xl font-medium mb-2">
+              <h1 className="text-left ml-10 lg:text-1xl/tight text-1xl font-medium mb-2">
                 Visi & Misi{" "}
                 <span className="font-bold text-sky-400">Ekraf</span>
               </h1>
-              <h3 className="pt-1 ml-10 text-2xl font-medium text-sky-400">
-                Visi
-              </h3>
-              <div className="text-left mx-10 bg-white border-2 rounded-lg w-auto h-auto items-center">
-                <div className="text-base px-4 py-4 text-wrap">
-                  Terwujudnya ekonomi kreatif sebagai sektor potensial unggulan
-                  yang mendukung pertumbuhan ekonomi di kabupaten majalengka.
+              <div className="mx-10 bg-white border-2 rounded-md w-auto h-5/6">
+                <h3 className="pt-1 ml-10 text-1xl font-medium text-sky-400">
+                  Visi
+                </h3>
+                <div className="text-left mx-10 bg-white border-2 rounded-md w-auto h-auto items-center">
+                  <div className="text-base px-4 py-4 text-wrap">
+                    Terwujudnya ekonomi kreatif sebagai sektor potensial
+                    unggulan yang mendukung pertumbuhan ekonomi di kabupaten
+                    majalengka.
+                  </div>
                 </div>
-              </div>
-              <h3 className="pt-5 ml-10 text-2xl font-medium text-sky-400">
-                Misi
-              </h3>
-              <div className="text-left mx-10 bg-white border-2 rounded-lg w-auto h-auto items-center">
-                <div className="text-base px-2 text-wrap">
-                  <ul className="list-decimal px-4 py-4">
-                    <li>
-                      Mengoptimalisasi aktivasi gedung Majalengka Creative
-                      Center sebagai ruang edukasi kreasi dan ekspresi bagi para
-                      pelaku ekonomi kreatif di kabupaten majalengka
-                    </li>
-                    <li>
-                      Mendorong pertumbuhan dan perkembangan ekosistem ekonomi
-                      kreatif di kabupaten majalengka
-                    </li>
-                    <li>
-                      Mendorong pemerintah kab majalengka dalam menerbitkan
-                      peraturan daerah tentang ekonomi kreatif sebagai payung
-                      hukum bagi tumbuh kembangangnya ekosistem ekonomi kreatif
-                      di kabupaten majalengka
-                    </li>
-                  </ul>
+                <h3 className="pt-5 ml-10 text-1xl font-medium text-sky-400">
+                  Misi
+                </h3>
+                <div className="text-left mx-10 bg-white border-2 rounded-md w-auto h-auto items-center">
+                  <div className="text-base px-2 text-wrap">
+                    <ul className="list-decimal px-4 py-4">
+                      <li>
+                        Mengoptimalisasi aktivasi gedung Majalengka Creative
+                        Center sebagai ruang edukasi kreasi dan ekspresi bagi
+                        para pelaku ekonomi kreatif di kabupaten majalengka
+                      </li>
+                      <li>
+                        Mendorong pertumbuhan dan perkembangan ekosistem ekonomi
+                        kreatif di kabupaten majalengka
+                      </li>
+                      <li>
+                        Mendorong pemerintah kab majalengka dalam menerbitkan
+                        peraturan daerah tentang ekonomi kreatif sebagai payung
+                        hukum bagi tumbuh kembangangnya ekosistem ekonomi
+                        kreatif di kabupaten majalengka
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>

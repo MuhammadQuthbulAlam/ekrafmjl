@@ -1,5 +1,6 @@
 import Image from "next/image";
 import logo from "../../public/Assets/images/LOGO MCC_120822.png";
+import Bg from "../../public/Assets/images/indo-landmark.svg";
 import {
   FaFacebook,
   FaYoutube,
@@ -11,9 +12,9 @@ import {
 } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className="footer bg-slate-950 shadow mt-20" id="social">
+    <div className="footer bg-sky-950 shadow mt-20" id="social">
       <div className="pt-5 md:mx-24 grid md:grid-cols-4 sm:grid-cols-3 grid-cols-1 gap-3 text-sm sm:mx-3">
-        <div className="mx-4 bg-slate-950 text-white px-4 text-left pt-5 pb-5">
+        <div className="mx-4 bg-sky-950 text-white px-4 text-left pt-5 pb-5">
           <Image src={logo} alt="logo" className="w-28" />
           <div className="flex flex-row mt-3 mb-3">
             <FaPhoneSquare className="ri-phone-line text-1xl hover:text-sky-300 " />
@@ -45,7 +46,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <p className="mx-4 bg-slate-950 text-white px-4 text-left pt-5 pb-5 font-bold">
+        <p className="mx-4 bg-sky-950 text-white px-4 text-left pt-5 pb-5 font-bold">
           Komite Ekonomi Kreatif <br />
           <br />
           <a href="/Komite">
@@ -66,7 +67,7 @@ const Footer = () => {
             </span>
           </a>
         </p>
-        <p className="mx-4 bg-slate-950 text-white px-4 text-left pt-5 pb-5 font-bold">
+        <p className="mx-4 bg-sky-950 text-white px-4 text-left pt-5 pb-5 font-bold">
           Gedung MCC
           <br />
           <br />
@@ -89,6 +90,7 @@ const Footer = () => {
           </a>
         </p>
       </div>
+      <Image src={Bg} alt="Background" className="mx-auto" />
       <hr />
       <div className="container mx-auto px-4 items-center justify-between text-white text-center">
         <p className="py-4">
